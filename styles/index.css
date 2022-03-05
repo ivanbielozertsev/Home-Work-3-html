@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+.nav {
+    height: 60px;
+    background: #474747;
+    text-align: center;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 18px;
+    color: #F13B02;
+    line-height: 60px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.link :last-child {
+    margin-right: 0;
+}
+
+.main {
+    height: 640px;
+    background-color: #87C6E5;
+    background-image: url(../images/wind-turbines.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.cont-lbl {
+    display: none;
+}
+
+.title {
+    margin: 0 0 0 288px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 72px;
+}
+
+.subtitle {
+    margin: 0 0 31px 288px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.order-btn {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F13B02;
+    border: 2px solid #F13B02;
+    border-radius: 8px;
+    padding: 9px 24px;
+    margin: 0 0 0 288px;
+    text-decoration: none;
+}
+
+.contact-block {
+    background-color: #474747;
+}
+
+.form {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 571px;
+}
+
+.box-name {
+    top: 716px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #C4C4C4;
+    margin-top: 16px;
+}
+
+.label {
+    display: block;
+}
+
+.box {
+    margin-top: 8px;
+    width: 571px;
+    height: 39px;
+    background: #C4C4C4;
+    border: 2px solid #F13B02;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.message-box {
+    margin-top: 8px;
+    width: 571px;
+    height: 183px;
+    background: #C4C4C4;
+    border: 2px solid #F13B02;
+    box-sizing: border-box;
+    border-radius: 8px;
+    resize: both;
+}
+
+.send-btn {
+    font-weight: bold;
+    font-size: 16px;
+    color: #353535;
+    background: #F13B02;
+    border: 2px solid #F13B02;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 9px 45px;
+    margin: 0 0 41px 2px;
+    margin-top: 8px;
+}
+
+.footer {
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #000000;
+}
